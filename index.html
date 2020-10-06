@@ -897,44 +897,6 @@ background-position: 50% 20%
 2. Improvements at the display-item level  
 3. Specific future improvements   
  ]
----
-
-background-image: url(Images/improve.svg)
-background-size: 300px
-background-position: 0% 100% 
-
-
-# Improvements: Paper-level
-
-.font140[
-- Use version control software (Git/Github).
-- Improve documentation: comments, indentations, object names, etc.   
-- Re-organize the reproduction package into a set of folders and sub-folders that follow [standardized best practices](https://www.projecttier.org/tier-protocol/specifications/#overview-of-the-documentation), and add a master script that executes all the code in order, with no further modifications. [See AEA's reproduction template](https://github.com/AEADataEditor/replication-template).  
-- Literate programming environment (e.g., Jupyter notebooks, RMarkdown)
-- Re-write code using a differenet statistical software (ideally open source, like R, Python, or Julia).
-- Set up a computing capsule (e.g., [Binder](https://mybinder.org/) and [Code Ocean](https://codeocean.com/)).
-]
----
-background-image: url(Images/improve.svg)
-background-size: 300px
-background-position: 0% 100% 
-
-# Improvements: Display item-level 
-&lt;/br&gt;
-
-.font110[
-- Adding missing raw data: files or meta-data  
-  - Example: "Add raw temperature and relative humidity data"
-- Adding missing analytic data files
-  - Example: "Copy the row files from Data folder into new `Analysis\trade cost\Input`"
-- Adding missing analysis or cleaning code
-  - Example: "Replaced broken Wald bootstrap code with updated code/command"
-- Debugging code  
-  - Example:  "was counting each group 4 times in round 1, so fixed that"
-  
-- Propose specific future improvements  
-
-]
 
 ---
 background-image: url(Images/robust.svg)
@@ -1020,57 +982,6 @@ Robustness with level 10
 #### 7 - Responding to hostile responses from original authors
 
 #### Under development: sample responses form authors to reproducers
----
-
-
-# .font80[Example 1: There is no reproduction package]
-
-.font70[
-&gt;**Subject:** Reproduction package for `[“Title of the paper”]`
-
-&gt;Dear Dr. `[Lastname of Corresponding Author]`,
-&gt;
-&gt; I am contacting you to request a reproduction package for your paper titled `[Title]` which was published in `[Reference]`. A reproduction package may contain (raw and/or analytic) data, code, and other documentation that makes it possible to reproduce paper. Would you be able to share any of these items?
-&gt;
-&gt;I am a `[position]` at `[Institution]`, and I would like to reproduce the results, tables, and other figures using the reproduction materials mentioned above. I have chosen this paper because `[add context ...]`. Unfortunately, I was not able to locate any of these materials on the journal website, Dataverse `[or other data and code repositories]`, or in your website.
-&gt;
-&gt;I will record the result of my reproduction attempt on ACRE [...]. With your permission, I will also record the materials you share with me, which would allow access for other reproducers and avoid repeated requests directed to you. Please let me know if there are any legal or ethical restrictions that apply to all or parts of the reproduction materials so that I can take that into consideration during this exercise.
-&gt;
-&gt;In addition to your response above, would you be available to respond to future (non-repetitive) inquiries from me or other reproducers conducting an ACRE excercise? Though your cooperation with my and/or any future request would be extremely helpful, please note that you are *not required to comply*.
-
-&gt;Since I am required to complete this project by `[date]`, I would appreciate your response by `[deadline]`.
-&gt;
-&gt;Let me know if you have any questions. Please also feel free to contact my supervisor/instructor `[Name (email)]` for further details on this exercise. Thank you in advance for your help!
-&gt;
-&gt;Best regards,  
-&gt;`[Reproducer]`
-]
-
----
-count:false
-
-# .font80[Example 1: There is no reproduction package]
-
-.font70[
-&gt;**Subject:** Reproduction package for `[“Title of the paper”]`
-
-&gt;Dear Dr. `[Lastname of Corresponding Author]`,
-&gt;
-&gt; I am contacting you to request a reproduction package for your paper titled `[Title]` which was published in `[Reference]`. A reproduction package may contain (raw and/or analytic) data, code, and other documentation that makes it possible to reproduce paper. Would you be able to share any of these items?
-&gt;
-&gt;I am a `[position]` at `[Institution]`, and I would like to reproduce the results, tables, and other figures using the reproduction materials mentioned above. I have chosen this paper because `[add context ...]`. **Unfortunately, I was not able to locate any of these materials on the journal website, Dataverse `[or other data and code repositories]`, or in your website**.
-&gt;
-&gt;**I will record the result of my reproduction attempt on ACRE [...]. With your permission, I will also record the materials you share with me, which would allow access for other reproducers and avoid repeated requests directed to you. Please let me know if there are any legal or ethical restrictions that apply to all or parts of the reproduction materials so that I can take that into consideration during this exercise.**
-&gt;
-&gt;In addition to your response above, would you be available to respond to future (non-repetitive) inquiries from me or other reproducers conducting an ACRE excercise? **Though your cooperation with my and/or any future request would be extremely helpful, please note that you are *not required to comply*.**
-
-&gt;Since I am required to complete this project by `[date]`, I would appreciate your response by `[deadline]`.
-&gt;
-&gt;Let me know if you have any questions. Please also feel free to contact my supervisor/instructor `[Name (email)]` for further details on this exercise. Thank you in advance for your help!
-&gt;
-&gt;Best regards,  
-&gt;`[Reproducer]`
-]
 
 ---
 
@@ -1165,28 +1076,6 @@ count:false
 &gt;
 &gt;I understand that this request will require some work for you or somebody in your research group, but I want to assure you that I will add these missing files to the reproduction package for your paper on the ACRE platform. **Doing this will ensure that you will not be asked twice for the same missing file.**
 ]
-
----
-
-# Ok, I get it. But what is in for me?
-.font120[
-- Standardized homework/project: everything is set up in terms of structure and deliverables.   
-
-- Easy to grade (homework format).  
-
-- Easy to guide and oversee (undergraduate dissertation format).
-
-- Easy to setup as an independent study. 
-
-- Reduces duplication of requests to authors. 
-
-- Facilitates a constructive exchange of ideas. 
-  - When emailing authors.  
-  - When discussion reproduction attempts.
-  
-- Personal satisfaction that you’re contributing a public good to the profession!
-]
-
 
 ---
 
