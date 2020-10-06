@@ -1,3 +1,3 @@
-# WEAI2020_slides
+# Dev Lunch 2020 slides
 
-Slides used for the presentation "How to Teach Reproducibility in Classwork" at the *Western Economic Association International*, June 27th, 2020.
+Slides used for the presentation "Accelerating Computational Reproducibility in Economics" at the *Development Economic Brown Bag at UC Berkeley*, October 6th, 2020.
