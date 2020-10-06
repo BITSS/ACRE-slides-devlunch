@@ -1,6 +1,6 @@
 ---
 title: "Accelerating Computational Reproducibility in Economics"
-subtitle: "DevLunch Seminar, UC Berkely"
+subtitle: "DevLunch Seminar, UC Berkeley"
 author: "Fernando Hoces, </br> Berkeley Initiative for Transparency in the Social Sciences"
 date:  "`r format(as.Date('2020-10-06'), '%d %B %Y')` | [slides](https://github.com/BITSS/ACRE-slides-devlunch) <br> .font80[(note: use the left and right arrow keys to navigate through slides)]"
 output: 
@@ -136,16 +136,18 @@ advancing transparency, </br> reproducibility,  rigor, and </br> ethics in resea
 
  Aleks Bogdanoski  
 
+ Albert Chae  
+ 
  Joel Ferguson  
 
  Fernando Hoces  
  
- Katie Hoeberling  
-
 ]
 .pull-right[ .right[
 We are part of the Center for Effective Global Action ([CEGA](https://cega.berkeley.edu/)).   
  </br></br></br></br></br></br></br>
+ Katie Hoeberling  
+ 
  Edward Miguel (PI)  
 
  Emma Ng   
