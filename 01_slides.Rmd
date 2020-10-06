@@ -363,7 +363,7 @@ We do not want to say
   
 --
 We do want to say 
- > "Paper X's result Y has a high/low level of reproducibility according to several reproduction attempts. Moreover, improvements have been made to the original reproduction package, increasing its reproducibility to a higher level" 
+ > "Result Y inpaper X has a high/low level of reproducibility according to several reproduction attempts. Moreover, improvements have been made to the original reproduction package, increasing its reproducibility to a higher level" 
 
 ---
 count:false 
@@ -583,7 +583,7 @@ Describe each analytic data file.
 ### Code files  
 Inspect all code files and record all their inputs and outputs. 
 
-With all the information recorded above, reproducers can use the *ACRE Diagram Builder* to generate a **reproduction tree**. 
+With all the information recorded above, reproducers can use the **ACRE Diagram Builder** to generate a **reproduction tree**. 
 
 
 
@@ -1235,10 +1235,10 @@ count:false
 # An example of well described issues:
 
 .font80[
->Specifically, I am attempting to reproduce OUTPUT X (e.g., table 1, figure 3). I found that the following components are required to reproduce to reproduce OUTPUT X:     
+>Specifically, I am attempting to reproduce [`display item X (e.g., table 1, figure 3)`]. I found that the following components are required to reproduce to reproduce [`display item X `]:     
 
 ```md
-         OUTPUT X
+         display_item_X
             └───[code] formatting_table1.R
                 ├───output1_part1.txt  
                 |   └───[code] output_table1.do           
@@ -1263,10 +1263,10 @@ count:false
 # An example of well described issues:
 
 .font80[
->Specifically, I am attempting to reproduce OUTPUT X (e.g., table 1, figure 3). I found that the following components are required to reproduce to reproduce OUTPUT X:     
+>Specifically, I am attempting to reproduce [`display item X (e.g., table 1, figure 3)`]. I found that the following components are required to reproduce to reproduce [`display item X `]:     
 
 ```md
-         OUTPUT X
+         display_item_X
             └───[code] formatting_table1.R
                 ├───output1_part1.txt  
                 |   └───[code] output_table1.do           
@@ -1466,6 +1466,6 @@ Dina Pomeranz undergraduate thesis for Marc Richter - University of Zurich
 Slides template:  [Grant McDermott](https://github.com/uo-ec510-2020-spring/lectures).   
 
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 pagedown::chrome_print("01_slides.html", output = "01_slides.pdf")
 ```
